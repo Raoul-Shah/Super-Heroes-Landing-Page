@@ -425,6 +425,20 @@ header .navbar ul li a:hover {
     color: var(--red);
 }
 
+.scroll-top {
+    position: fixed;
+    bottom: 7.5rem;
+    right: 2rem;
+    z-index: 1000;
+    display: none;
+}
+
+.scroll-top img {
+    height: 7rem;
+    filter: drop-shadow(0 .3rem .5rem rgba(0, 0, 0, .2));
+}
+
+
 
 
 
