@@ -438,6 +438,88 @@ header .navbar ul li a:hover {
     filter: drop-shadow(0 .3rem .5rem rgba(0, 0, 0, .2));
 }
 
+/* media queries */
+
+@media (max-width: 991px) {
+
+    html {
+        font-size: 55%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #menu {
+        display: block;
+    }
+
+    header .navbar {
+        position: fixed;
+        top: 110%;
+        left: 0;
+        background: #fff;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        border-radius: .5rem;
+        width: 100%;
+        transform: scaleY(0);
+        transform-origin: top;
+        opacity: 0;
+    }
+
+    header .navbar ul {
+        flex-flow: column;
+        padding: 2rem;
+    }
+
+    header .navbar li {
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    header .navbar li a {
+        display: block;
+        font-size: 2.5rem;
+        border-bottom: .1rem solid rgba(0, 0, 0, .1);
+        padding: 1.5rem 0;
+    }
+
+    .fa-times {
+        transform: rotate(180deg);
+    }
+
+    header .navbar.nav-toggle {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+
+    .home .content {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    section {
+        padding: 0 3%;
+        padding-top: 11rem;
+    }
+    
+    .about .row .image img {
+        height: auto;
+        width: 100%;
+    }
+
+    .product .box-container .box {
+        width: 100%;
+    }
+
+}
 
 
 
