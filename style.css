@@ -387,114 +387,70 @@ header .navbar ul li a:hover {
     font-size: 3rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* media queries */
-
-@media (max-width: 991px) {
-
-    html {
-        font-size: 55%;
-    }
-
+.footer {
+    text-align: center;
+    background: #222;
 }
 
-@media (max-width: 768px) {
-
-    #menu {
-        display: block;
-    }
-
-    header .navbar {
-        position: fixed;
-        top: 110%;
-        left: 0;
-        background: #fff;
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-        border-radius: .5rem;
-        width: 100%;
-        transform: scaleY(0);
-        transform-origin: top;
-        opacity: 0;
-    }
-
-    header .navbar ul {
-        flex-flow: column;
-        padding: 2rem;
-    }
-
-    header .navbar li {
-        margin: 1rem 0;
-        width: 100%;
-    }
-
-    header .navbar li a {
-        display: block;
-        font-size: 2.5rem;
-        border-bottom: .1rem solid rgba(0, 0, 0, .1);
-        padding: 1.5rem 0;
-    }
-
-    .fa-times {
-        transform: rotate(180deg);
-    }
-
-    header .navbar.nav-toggle {
-        transform: scaleY(1);
-        opacity: 1;
-    }
-
-    .home .content {
-        text-align: center;
-    }
-
+.footer .share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
 }
 
-@media (max-width: 400px) {
-
-    html {
-        font-size: 50%;
-    }
-
-    section {
-        padding: 0 3%;
-        padding-top: 11rem;
-    }
-    
-    .about .row .image img {
-        height: auto;
-        width: 100%;
-    }
-
-    .product .box-container .box {
-        width: 100%;
-    }
-
+.footer .share a {
+    font-size: 2rem;
+    color: #ccc;
+    padding: 2rem;
 }
+
+.footer .share a:hover{
+    color: #eee;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .credit {
+    padding: 2rem 1rem;
+    font-size: 2.5rem;
+    color: #fff;
+    background: #111;
+}
+
+.footer .credit a {
+    color: var(--red);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
