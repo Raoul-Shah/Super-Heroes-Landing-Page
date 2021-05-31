@@ -276,6 +276,71 @@ header .navbar ul li a:hover {
     padding: 1rem 0;
 }
 
+.movies {
+    background: #222;
+}
+
+.movies .heading span {
+    color: #fff;
+}
+
+.movies .box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.movies .box-container .box {
+    position: relative;
+    flex: 1 1 30rem;
+    height: 40rem;
+    overflow: hidden;
+    margin: 2rem;
+    box-shadow: 0 .3rem .5rem #000;
+}
+
+.movies .box-container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.movies .box-container .box .info {
+    position: absolute;
+    width: 100%;
+    padding: 2rem;
+    bottom: -100%;
+    left: 0;
+    background: rgba(0, 0, 0, .7);
+}
+
+.movies .box-container .box:hover .info{
+    bottom: 0;
+}
+
+.movies .box-container .box .info h3 {
+    font-size: 3rem;
+    color: #fff;
+    padding-bottom: .5rem;
+}
+
+.movies .box-container .box .info span {
+    font-size: 2rem;
+    color: var(--red);
+}
+
+.movies .box-container .box .info .stars i {
+    font-size: 2rem;
+    color: #fd5507;
+    padding: 1rem .1rem;
+}
+
+.movies .box-container .box .info p {
+    font-size: 2rem;
+    color: #ccc;
+    padding: .5rem 0;
+}
 
 
 
